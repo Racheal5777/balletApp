@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70vh;
+    background-image: url(https://s3.amazonaws.com/production.scholastica/article/21150/small/photo-1598475052128-d33e84d00787?1613440953);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    gap: 3rem;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #fff ;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+.bannerTitle {
+    max-width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerTitle > h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+section{
+    background-color: #232323;
+    padding-block: 3rem;
+}
+.subscribewrapper{
+    border: 2px solid;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.formwrapper{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1.rem;
+}
+.inputCont{
+    border-bottom: 1px solid #484747;
+    margin-bottom: 1rem;
+}
+
+.inputCont > input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-block: .4rem;
+}
+
+.inputCont > input::placeholder{
+    text-transform: uppercase;
+    font-size: 8px;
+    color: #484747;
+    letter-spacing: .2rem;
+}
+.submitBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.submitBtn > button {
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    color: #484747;
+    letter-spacing: .1rem;
+}
+
+.submitBtn > span{
+    border: 1px solid #484747;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #484747;
+}
+
+.mapCont{
+    height: 45vh;
+    width: 70%;
+    border: none;
+}
+
+.mapCont > img{
+    height: 105%;
+    width: 100%;
+}
